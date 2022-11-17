@@ -1,0 +1,62 @@
+/* a container of input_raw_text 
+containing
+serial_number,
+input_value,
+reference
+*/
+input_raw_text=[]
+
+take input from user
+    return input_raw_text to Text_Analysis
+
+## more intermediate steps for analyze the sentence of the text
+## trust factor initlization
+threat severity,TS=0,
+threat vulnerability,TV=0,
+threat appraisal,TA=0,
+response efficacy,RE=0,
+self-efficacy,SE=0,
+coping appraisal,CA=0,
+fear appeal,FA=0,
+trust level,TL=0,
+system complexity,SC=0,
+Social Influence,SI=0,
+image,Im=0,
+performance verifiability,PV=0,
+job relevance,JR=0,
+experience,Ex=0,
+performance expectancy,PE=0,
+effort expectancy,EE=0
+
+
+
+if the main factor or external factor's final_impact_value<=0
+    if final_impact_value=-2
+        final_impact_value=10
+    else if final_impact_value=-4
+        final_impact_value=8
+    else if final_impact_value=-6
+        final_impact_value=6
+    else if final_impact_value=-8 
+        final_impact_value=4
+    else if final_impact_value=-10
+        final_impact_value=2 
+    else
+        final_impact_value=0
+else
+    final_impact_value=final_impact_value
+
+TA=round((TS+TV)/2)
+
+FA=TA
+CA=round((RE+SE)/2)
+MC=-CA
+PU=round((Im+PV+JR+Ex+SI)/5)
+SI=Im
+BI=round((PE+EE+SI)/3)
+TL=-FA-MC-SC+BI+SI+PU
+
+#Error_percentage=(TL-10)/10*100
+print TL
+print Error_percentage
+

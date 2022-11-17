@@ -1,0 +1,25 @@
+for each para
+    if there exist any sentence where BCT has When the innovative features and versatility with unsolved problems and evidence of loss and it is demonstrated to user of BCT
+        PE_Sum=PE_Sum+2
+        PE_Count=PE_Count+1
+
+        else if there exist any sentence where BCT has  innovative features and versatility  with unsolved problems and it is demonstrated to user of BCT
+            PE_Sum=PE_Sum+4
+            PE_Count=PE_Count+1
+
+        else if there exist any sentence where BCT has  the innovative features and versatility  with some problems having an immature solution and it is demonstrated to user of BCT
+            PE_Sum=PE_Sum+6
+            PE_Count=PE_Count+1
+
+        else if there exist any sentence where BCT has  innovative features and versatility  with some ignorable problems and it is demonstrated to user of BCT
+            PE_Sum=PE_Sum+8
+            PE_Count=PE_Count+1
+
+        else if there exist any sentence where BCT has the innovative features and versatility with very low threat severity and it is demonstrated to user of BCT
+            PE_Sum=PE_Sum+10
+            PE_Count=PE_Count+1
+
+    else 
+        PE_Sum=PE_Sum+0
+        PE_Count=PE_Count+0
+PE=round(PE_Sum/PE_Count)

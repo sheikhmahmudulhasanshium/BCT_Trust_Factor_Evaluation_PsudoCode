@@ -1,0 +1,26 @@
+
+for each para
+    if there exist any sentence where BCT has  the unsolved problem  and the evidence reduces the trust in the protective measures against the risks enough to switch to other technology
+        RE_Sum=RE_Sum+2
+        RE_Count=RE_Count+1
+
+        else if there exist any sentence where BCT has  the system is unable to give a solution to the problem, which, if it occurs by taking the system’s own protection, may not work against the risk
+            RE_Sum=RE_Sum+4
+            RE_Count=RE_Count+1
+
+        else if there exist any sentence where BCT has some  available protective measure is not mature enough, by using BCT a user may not be able to overcome all kinds of risks
+            RE_Sum=RE_Sum+6
+            RE_Count=RE_Count+1
+
+        else if there exist any sentence where BCT has some problem which is ignorable but the risks can be avoided by using established and standard protective measures   
+            RE_Sum=RE_Sum+8
+            RE_Count=RE_Count+1
+
+        else if there exist any sentence where BCT has no threat that means the system is successful in keeping it immutable to threat by taking its built-in protective measure
+            RE_Sum=RE_Sum+10
+            RE_Count=RE_Count+1
+
+    else 
+        RE_Sum=RE_Sum+0
+        RE_Count=RE_Count+0
+TS=round(RE_Sum/RE_Count)

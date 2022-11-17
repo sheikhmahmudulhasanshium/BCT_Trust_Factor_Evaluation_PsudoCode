@@ -1,0 +1,26 @@
+
+for each para
+    if there exist any sentence where BCT has strongly negative image and Social Influencer are leaving particular BCT for very high risk
+        Im_Sum=Im_Sum+2
+        Im_Count=Im_Count+1
+
+        else if there exist any sentence where BCT has negative image and Social Influencer are leaving particular BCT for high risk
+            Im_Sum=Im_Sum+4
+            Im_Count=Im_Count+1
+
+        else if there exist any sentence where BCT  has average image and Social Influencer are neither encouraging nor leaving particular BCT for some risk
+            Im_Sum=Im_Sum+6
+            Im_Count=Im_Count+1
+
+        else if there exist any sentence where BCT  has positive image and Social Influencer are encouraging particular BCT for very ignorable risk
+            Im_Sum=Im_Sum+8
+            Im_Count=Im_Count+1
+
+        else if there exist any sentence where BCT has very positive image and Social Influencer are strongly encouraging particular BCT for virtually no risk
+            Im_Sum=Im_Sum+10
+            Im_Count=Im_Count+1
+
+    else 
+        Im_Sum=Im_Sum+0
+        Im_Count=Im_Count+0
+Im=round(Im_Sum/Im_Count)
