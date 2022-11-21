@@ -1,0 +1,25 @@
+for each para
+    if there exist any sentence where BCT has no usefulness in the personal life of user or the alternative of BCT is so good that they do not need BCT
+        JR_Sum=JR_Sum+2
+        JR_Count=JR_Count+1
+
+        else if there exist any sentence where BCT has some usefulness in the personal life of user which is very ignorable or the alternative also has some  
+            JR_Sum=JR_Sum+4
+            JR_Count=JR_Count+1
+
+        else if there exist any sentence where BCT has some usefulness in the personal life of user and the user is not bound to use BCT to do his daily job
+            JR_Sum=JR_Sum+6
+            JR_Count=JR_Count+1
+
+        else if there exist any sentence where BCT has very usefulness in personal life or without that particular BCT the user faces difficulty to do his daily job
+            JR_Sum=JR_Sum+8
+            JR_Count=JR_Count+1
+
+        else if there exist any sentence where BCT has heavy usefulness in the personal life of user or without that particular BCT the user can not do his daily job
+            JR_Sum=JR_Sum+10
+            JR_Count=JR_Count+1
+
+    else 
+        JR_Sum=JR_Sum+0
+        JR_Count=JR_Count+0
+JR=round(JR_Sum/JR_Count)
