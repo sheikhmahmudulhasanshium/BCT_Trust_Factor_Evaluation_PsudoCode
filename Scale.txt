@@ -1,0 +1,48 @@
+def scale(factor_name,score):
+    if score>=0
+        if score=2:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+        elif score=4:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+        elif score=6:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+        elif score=8:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+        elif score=10:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+        else:
+            factor_score_sum=factor_score_sum+score
+            factor_count=factor_count+1
+    else:
+        if score=-2:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+        eif score=4:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+        eif score=6:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+        eif score=8:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+        eif score=10:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+        else:
+            factor_score_sum=factor_score_sum+(10+score)
+            factor_count=factor_count+1
+    present_avg=factor_score_sum/factor_count
+    present_round=round(present_avg)
+    if present_avg is_even:
+        return present_round
+    else:
+        if abs(present_avg-present_round)=<0.5
+            return present_round+1
+        else:
+            return present_round-1 
