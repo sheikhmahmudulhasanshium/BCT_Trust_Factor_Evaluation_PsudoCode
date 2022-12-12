@@ -1,26 +1,20 @@
-
 for each para
     if there exist any sentence where BCT user even though  is conscious and careful while using BCT, the protective measure will not be sufficient enough to avoid the risk
-        SE_Sum=SE_Sum+2
-        SE_Count=SE_Count+1
+        SE=score('SE',2)
 
         else if there exist any sentence where the user of BCT even though the user is conscious and careful while using BCT, the protective measure will not be sufficient enough to avoid the risk
-            SE_Sum=SE_Sum+4
-            SE_Count=SE_Count+1
+            	SE=score('SE',4)
 
         else if there exist any sentence where the user of BCT is aware of the consequences of the risk and can not take security measures of only BCT by himself and if the user manages to find extraordinary and promising protection measures and stay careful enough, the loss of the risk might be mitigated 
-            SE_Sum=SE_Sum+6
-            SE_Count=SE_Count+1
+           SE=score('SE',6)
 
         else if there exist any sentence where BCT has some problem and if the mentioned risk appears, the user will be able to overcome the risk himself by using the BCT technology and self-awareness
-            SE_Sum=SE_Sum+8
-            SE_Count=SE_Count+1
+            SE=score('SE',8)
 
         else if there exist any sentence where BCT has no threat and  if a risk happens by chance, the user will be able to overcome the risk himself by using the BCT technology and self-awareness
-            SE_Sum=SE_Sum+10
-            SE_Count=SE_Count+1
+            SE=score('SE',10)
 
     else 
-        SE_Sum=SE_Sum+0
-        SE_Count=SE_Count+0
-SE=round(SE_Sum/SE_Count)
+        SE=score('SE',0)
+
+

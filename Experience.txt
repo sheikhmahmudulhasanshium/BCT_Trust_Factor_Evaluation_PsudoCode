@@ -1,28 +1,19 @@
-
 for each para
     If the user has never used a similar type of technology before using BCT
-        Ex_Sum=Ex_Sum+0
-        Ex_Count=Ex_Count+1
+        Ex=score('Ex',0)
 
         else if there exist any sentence where previous experience of targeted user  very bad or has very negative experience or  targeted user will most likely reject new technology having similar features due to problems
-            Ex_Sum=Ex_Sum+2
-            Ex_Count=Ex_Count+1
+           Ex=score('Ex',2)
 
         else if there exist any sentence where previous experience of targeted user was relatively bad with some major issues or has negative experience
-            Ex_Sum=Ex_Sum+4
-            Ex_Count=Ex_Count+1
+            Ex=score('Ex',4)
 
         else if there exist any sentence where previous experience of targeted user average with some bad issues and good features or  the targeted user will still be likely to give a chance to the new technology to check whether the new technology fixed previous problems or not and useful new features were added or not
-            Ex_Sum=Ex_Sum+6
-            Ex_Count=Ex_Count+1
+            Ex=score('Ex',6)
 
         else if there exist any sentence where previous experience of targeted user was relatively good with some minor issues or has positive experience
-            Ex_Sum=Ex_Sum+8
-            Ex_Count=Ex_Count+1
+            Ex=score('Ex',8)
 
         else if there exist any sentence where previous experience of targeted user was very good or has very positive experience
-            Ex_Sum=Ex_Sum+10
-            Ex_Count=Ex_Count+1
+           Ex=score('Ex',10)
 
-   
-Ex=round(Ex_Sum/Ex_Count)

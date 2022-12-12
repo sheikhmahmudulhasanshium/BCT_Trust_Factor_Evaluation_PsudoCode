@@ -1,25 +1,17 @@
 for each para
     if there exist any sentence where BCT  is superior to the other technology handeling risk and  BCT is very easy to understand and the user do not have to go through more steps since no risk occurs
-        EE_Sum=EE_Sum+2
-        EE_Count=EE_Count+1
+               EE=score('EE',2)
 
         else if there exist any sentence where BCT is superior to the other technology handeling risk and  the user might have to go through more well defined steps if somehow any risk occurs
-            EE_Sum=EE_Sum+4
-            EE_Count=EE_Count+1
+           		EE=score('EE',4)
 
         else if there exist any sentence where BCT  is superior to the other technology handeling risk and  the user might have to go through more unclear steps and be extra cautious if somehow any risk occurs
-            EE_Sum=EE_Sum+6
-            EE_Count=EE_Count+1
+           		EE=score('EE',6)
 
         else if there exist any sentence where  BCT has past evidence of loss and the BCT user has to go through more steps most of the times and be extra cautious if somehow any risk occurs 
-            EE_Sum=EE_Sum+8
-            EE_Count=EE_Count+1
+            	EE=score('EE',8)
 
         else if there exist any sentence where BCT has recent evidence of loss and the BCT user must go through more steps, be extra cautious all the time, and even use their own protective measures and experience if any risk occurs
-            EE_Sum=EE_Sum+10
-            EE_Count=EE_Count+1
-
-    else 
-        EE_Sum=EE_Sum+0
-        EE_Count=EE_Count+0
-EE=round(EE_Sum/EE_Count)
+            EE=score('EE',10)
+else 
+        EE=score('EE',10)

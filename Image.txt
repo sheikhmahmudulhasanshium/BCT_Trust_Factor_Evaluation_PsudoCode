@@ -1,25 +1,18 @@
 for each para
     if there exist any sentence where BCT  technology has previously collapsed  history and present evidence that means it has a huge risk
-        Im_Sum=Im_Sum+2
-        Im_Count=Im_Count+1
+       Im=score('Im',2)
 
         else if there exist any sentence where BCT  technology has previously collapsed  history that means it has some risk but the risk is very unlikely to happen again
-            Im_Sum=Im_Sum+4
-            Im_Count=Im_Count+1
+           Im=score('Im',4)
 
         else if there exist any sentence where BCT  has medium threat severity and threat vulnerability and some new and innovative concepts that make it better than other technologies and  there are some solutions to problems that are immature
-            Im_Sum=Im_Sum+6
-            Im_Count=Im_Count+1
+           Im=score('Im',6)
 
         else if there exist any sentence where BCT  has  low threat severity and threat vulnerability and some new and innovative concepts and there are some ignorable problems
-            Im_Sum=Im_Sum+8
-            Im_Count=Im_Count+1
+           Im=score('Im',8)
 
         else if there exist any sentence where BCT has very low threat severity and threat vulnerability and some new and innovative concepts with no risk that other technologies faces
-            Im_Sum=Im_Sum+10
-            Im_Count=Im_Count+1
+           Im=score('Im',10)
 
     else 
-        Im_Sum=Im_Sum+0
-        Im_Count=Im_Count+0
-Im=round(Im_Sum/Im_Count)
+       Im=score('Im',0)

@@ -1,26 +1,13 @@
-
 for each para
-    if there exist any sentence where BCT does not have a problem that other technology has
-        TS_Sum=TS_Sum+2
-        TS_Count=TS_Count+1
-
-        else if there exist any sentence where BCT has some problem that can be overlooked
-            TS_Sum=TS_Sum+4
-            TS_Count=TS_Count+1
-
-        else if there exist any sentence where BCT has a solution of problem but it is not matured/ optimized enough
-            TS_Sum=TS_Sum+6
-            TS_Count=TS_Count+1
-
-        else if there exist any evidence of unsolved problem which is less likely to happen again
-            TS_Sum=TS_Sum+8
-            TS_Count=TS_Count+1
-
-        else if there exist any evidence of unsolved problem that reduced trust level significantly enough to switch to other language
-            TS_Sum=TS_Sum+10
-            TS_Count=TS_Count+1
-
+    if there exists any sentence where BCT does not have a problem that another technology has
+        TS=score('TS',2)
+        else if there exists any sentence where BCT has some problem that can be overlooked
+                    TS=score('TS',4)
+        else if there exist any sentence where BCT has a solution of the problem but it is not matured or optimized enough
+                    TS=score('TS',6)
+        else if there exists any evidence of unsolved problem which is less likely to happen again
+                    TS=score('TS',8)
+        else if there exists any evidence of the unsolved problem that reduced trust level significant enough to switch to other technology
+                    TS=score('TS',10)
     else 
-        TS_Sum=TS_Sum+0
-        TS_Count=TS_Count+0
-TS=round(TS_Sum/TS_Count)
+                TS=score('TS',0)
