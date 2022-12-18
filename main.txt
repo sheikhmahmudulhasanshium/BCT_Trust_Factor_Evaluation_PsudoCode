@@ -30,31 +30,29 @@ effort expectancy,EE=0
 
 
 
-if the main factor or external factor's final_impact_value<=0
-    if final_impact_value=-2
-        final_impact_value=10
-    else if final_impact_value=-4
-        final_impact_value=8
-    else if final_impact_value=-6
-        final_impact_value=6
-    else if final_impact_value=-8 
-        final_impact_value=4
-    else if final_impact_value=-10
-        final_impact_value=2 
-    else
-        final_impact_value=0
-else
-    final_impact_value=final_impact_value
 
+#Pseudocode for main factors
+#Threat Appraisal (TA)
 TA=round((TS+TV)/2)
-
-FA=TA
+#Fear Appeal (FA)
+FA=-TA
+#Coping Appraisal (CA)
 CA=round((RE+SE)/2)
+#Maladaptive Coping (MC)
 MC=-CA
-PU=round((Im+PV+JR+Ex+SI)/5)
-SI=Im
+#Behavioral Intention (BI)
 BI=round((PE+EE+SI)/3)
-TL=-FA-MC-SC+BI+SI+PU
+#Perceived Usefulness (PU)
+PU=round((Im+PV+JR+Ex+SI)/5)
+#Intention to Use Blockchain (IB)
+FA=10+FA
+MC=10+MC
+SC=10-SC
+
+
+IB=round((FA+MC+SC+BI+PU)/5)
+
+TL=IB*10
 
 #Error_percentage=(TL-10)/10*100
 print TL
