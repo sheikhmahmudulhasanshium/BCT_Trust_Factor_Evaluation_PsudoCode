@@ -1,18 +1,13 @@
 for each para
     if there exist any sentence where BCT  technology has previously collapsed  history and present evidence that means it has a huge risk
-       Im=score('Im',2)
-
+       Im=score('Im',1)
         else if there exist any sentence where BCT  technology has previously collapsed  history that means it has some risk but the risk is very unlikely to happen again
-           Im=score('Im',4)
-
+           Im=score('Im',3)
         else if there exist any sentence where BCT  has medium threat severity and threat vulnerability and some new and innovative concepts that make it better than other technologies and  there are some solutions to problems that are immature
-           Im=score('Im',6)
-
+           Im=score('Im',5)
         else if there exist any sentence where BCT  has  low threat severity and threat vulnerability and some new and innovative concepts and there are some ignorable problems
-           Im=score('Im',8)
-
+           Im=score('Im',7)
         else if there exist any sentence where BCT has very low threat severity and threat vulnerability and some new and innovative concepts with no risk that other technologies faces
-           Im=score('Im',10)
-
+           Im=score('Im',9)
     else 
        Im=score('Im',0)

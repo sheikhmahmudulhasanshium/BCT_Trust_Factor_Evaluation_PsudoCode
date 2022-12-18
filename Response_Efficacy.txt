@@ -1,17 +1,17 @@
 for each para
     if there exist any sentence where BCT has  the unsolved problem  and the evidence reduces the trust in the protective measures against the risks enough to switch to other technology
-         RE=score('RE',2)
+         RE=score('RE',1)
 
         else if there exist any sentence where BCT has  the system is unable to give a solution to the problem, which, if it occurs by taking the system’s own protection, may not work against the risk
-           		RE=score('RE',4)
+           		RE=score('RE',3)
 
         else if there exist any sentence where BCT has some  available protective measure is not mature enough, by using BCT a user may not be able to overcome all kinds of risks
-           RE=score('RE',6)
+           RE=score('RE',5)
         else if there exist any sentence where BCT has some problem which is ignorable but the risks can be avoided by using established and standard protective measures   
-            RE=score('RE',8)
+            RE=score('RE',7)
 
         else if there exist any sentence where BCT has no threat that means the system is successful in keeping it immutable to threat by taking its built-in protective measure
-            RE=score('RE',10)
+            RE=score('RE',9)
 
     else 
-        RE=score('RE',10)
+        RE=score('RE',0)

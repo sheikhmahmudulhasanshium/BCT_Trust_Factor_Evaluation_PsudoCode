@@ -1,13 +1,13 @@
 for each para
     if there exists any sentence where BCT does not have a problem that another technology has
-        TS=score('TS',2)
+        TS=score('TS',1)
         else if there exists any sentence where BCT has some problem that can be overlooked
-                    TS=score('TS',4)
+                    TS=score('TS',3)
         else if there exist any sentence where BCT has a solution of the problem but it is not matured or optimized enough
-                    TS=score('TS',6)
+                    TS=score('TS',5)
         else if there exists any evidence of unsolved problem which is less likely to happen again
-                    TS=score('TS',8)
+                    TS=score('TS',7)
         else if there exists any evidence of the unsolved problem that reduced trust level significant enough to switch to other technology
-                    TS=score('TS',10)
+                    TS=score('TS',9)
     else 
-                TS=score('TS',0)
+        TS=score('TS',0)

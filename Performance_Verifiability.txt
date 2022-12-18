@@ -1,17 +1,14 @@
 for each para
     if there exist any sentence where BCT system can verify most of the part’s performance and fail to judge some parts, which problem is unsolved yet and has clear evidence that risk causing loss that means this system's performance verifiability is very low
-        PV=score('PV',2)
-
+        PV=score('PV',1)
         else if there exist any sentence where BCT system can verify most of the part's performance and fail to judge some parts, which problem is unsolved yet
-                    PV=score('PV',4)
-
+                    PV=score('PV',3)
         else if there exist any sentence where BCT If the BCT is somewhat better than other technologies, it should have a defined standard method that verifies the claim of performance and the superiority claim is technically legit and it has some ignorable limitations
-                   PV=score('PV',6)
+                   PV=score('PV',5)
         else if there exist any sentence where BCT is superior to other technology it should have a defined standard method that verifies the claim of performance and If the superiority claim is legit and it has some ignorable limitations
-                    PV=score('PV',8)
-
+                    PV=score('PV',7)
         else if there exist any sentence where BCT is superior to other technology it should have a defined standard method that verifies the claim of performance and the superiority claim is legit
-                   PV=score('PV',10)
+                   PV=score('PV',9)
 
     else 
        	        PV=score('PV',0)

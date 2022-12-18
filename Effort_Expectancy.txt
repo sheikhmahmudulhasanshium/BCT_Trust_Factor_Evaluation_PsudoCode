@@ -1,17 +1,17 @@
 for each para
     if there exist any sentence where BCT  is superior to the other technology handeling risk and  BCT is very easy to understand and the user do not have to go through more steps since no risk occurs
-               EE=score('EE',2)
+               EE=score('EE',1)
 
         else if there exist any sentence where BCT is superior to the other technology handeling risk and  the user might have to go through more well defined steps if somehow any risk occurs
-           		EE=score('EE',4)
+           		EE=score('EE',3)
 
         else if there exist any sentence where BCT  is superior to the other technology handeling risk and  the user might have to go through more unclear steps and be extra cautious if somehow any risk occurs
-           		EE=score('EE',6)
+           		EE=score('EE',5)
 
         else if there exist any sentence where  BCT has past evidence of loss and the BCT user has to go through more steps most of the times and be extra cautious if somehow any risk occurs 
-            	EE=score('EE',8)
+            	EE=score('EE',7)
 
         else if there exist any sentence where BCT has recent evidence of loss and the BCT user must go through more steps, be extra cautious all the time, and even use their own protective measures and experience if any risk occurs
-            EE=score('EE',10)
+            EE=score('EE',9)
 else 
-        EE=score('EE',10)
+        EE=score('EE',0)
