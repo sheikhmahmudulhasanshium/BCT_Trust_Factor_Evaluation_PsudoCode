@@ -2,7 +2,8 @@
 <p align="justify"> The <b>BCT-IATI</b> (Blockchain Technology Industrial Adoption Trust Index) model is a tool that determines the level of trust of a particular blockchain-based product based on several trust factors. It was developed by <b>Sheikh Mahmudul Hasan Shium, Md. Mahabub Islam, S.A. Saharukh and Anamul Hoque Rafi</b> under the supervision of <b>Md. Mehedi Hassan Onik</b>. </p>
 
 <img width="80%" height="40%" src="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/Theoretical-Framework.png" alt="theoretical model"/>
-The trust in a product is calculated by considering some parameters. The parameters are called trust factors/ trust variables/ trust index. All trust factor belongs to either of the three categories-
+
+<p align="justify">The trust in a product is calculated by considering some parameters. The parameters are called <b>trust factors/ trust variables/ trust index</b>. The definition of each parameter is given <a href="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/definition-example.md">here</a> All trust factor belongs to either of the three categories-
 <ol>
  <li>
  <b> Sub-factor/sub-category/independent parameter/independent variable/independent factor: </b> These parameters are independent and the score of these parameters are calculated separately. The independent parameters indirectly(via dependent parameter/external factor) influence the trust of blockchain. For example: Threat Severity, Threat Vulnerability, Response Efficacy, Self-efficacy, Experience, Job Relevance, Performance Verifiability, Image, Performance Expectancy and Effort Expectancy. 
@@ -14,10 +15,10 @@ The trust in a product is calculated by considering some parameters. The paramet
 <b> External factors/ External parameters/ External variables: </b>These parameters are  dependent or independent but have a strong influence on the intention to use BCT, or the main category of trust factors, which are the last types of trust factors. For example: System Complexity and Social Influence
  </li>
 </ol>
-
+</p> 
 # Relationship among trust parameters
 <img width="80%" height="40%" src="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/Model_V6.drawio.png" alt="hypothetical model"/>
-The following rules justify the relationship among the parameters:
+<p align="justify">The following rules justify the relationship among the parameters:
 <ul> 
  <li>Performance Verifiability, Job Relevance, and Experience positively affect the Perceived usefulness.</li>
 <li>Performance Expectancy positively and Effort Expectancy negatively influence Behavioral Intention.</li>
@@ -30,6 +31,7 @@ The following rules justify the relationship among the parameters:
 <li>Perceived Usefulness positively, Behavioral Intention positively, Maladaptive Coping negatively, Fear of Blockchain negatively, and System Complexity negatively affect Intention to Use Blockchain.</li>
 <li>Intention to use blockchain highly influences the trust level of blockchain positively.</li>
 </ul>
+</p>
 
 # Work Process of BCT-IATI Framework
 <img width="40%" height="40%" src="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/Basic_Process_Diagram.drawio%20(1).png" alt="Basic work process"/>
