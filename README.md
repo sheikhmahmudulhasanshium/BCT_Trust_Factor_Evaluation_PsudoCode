@@ -31,3 +31,5 @@ The following rules justify the relationship among the parameters:
 <li>Intention to use blockchain highly influences the trust level of blockchain positively.</li>
 </ul>
 
+# Work Process of BCT-IATI Framework
+<img width="80%" height="40%" src="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/Basic_Process_Diagram.drawio%20(1).png" alt="Basic work process"/>
