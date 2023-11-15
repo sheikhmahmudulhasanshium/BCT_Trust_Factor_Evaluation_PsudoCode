@@ -3,7 +3,7 @@
 
 <img width="80%" height="40%" src="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/Theoretical-Framework.png" alt="theoretical model"/>
 
-<p align="justify">The trust in a product is calculated by considering some parameters. The parameters are called <b>trust factors/ trust variables/ trust index</b>. The definition of each parameter is given <a href="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/definition-example.md">here</a> All trust factor belongs to either of the three categories-
+<p align="justify">The trust in a product is calculated by considering some parameters. The parameters are called <b>trust factors/ trust variables/ trust index</b>. The definition and example of each parameter is given <a href="https://github.com/sheikhmahmudulhasanshium/BCT_Trust_Factor_Evaluation_PsudoCode/blob/master/trust_factors_calculation/figures/definition-example.md">here</a> All trust factor belongs to either of the three categories-
 <ol>
  <li>
  <b> Sub-factor/sub-category/independent parameter/independent variable/independent factor: </b> These parameters are independent and the score of these parameters are calculated separately. The independent parameters indirectly(via dependent parameter/external factor) influence the trust of blockchain. For example: Threat Severity, Threat Vulnerability, Response Efficacy, Self-efficacy, Experience, Job Relevance, Performance Verifiability, Image, Performance Expectancy and Effort Expectancy. 
